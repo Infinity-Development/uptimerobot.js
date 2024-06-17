@@ -2,7 +2,8 @@
 /node_modules/
 
 # Test files
-/tests/*
+tests/*
+./tests/*
 
 # Logs
 npm-debug.log*
