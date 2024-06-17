@@ -1,8 +1,12 @@
 {
   "name": "@infinitylist/uptimerobot.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JavaScript library for interacting with the Uptime Robot API.",
   "main": "./dist/index.js",
+  "files": [
+    "dist/**/*",
+    "src/**/*"
+  ],
   "scripts": {
     "build": "tsc",
     "docs": "typedoc",
