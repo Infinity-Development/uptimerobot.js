@@ -1,0 +1,30 @@
+{
+  "name": "uptimerobot.js",
+  "version": "0.0.1",
+  "description": "A JavaScript library for interacting with the Uptime Robot API.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "docs": "typedoc",
+    "test": "node ./tests/base.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Infinity-Development/uptimerobot.js.git"
+  },
+  "keywords": ["uptimerobot", "uptime robot", "uptime-robot"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "@types/node-fetch": "^2.6.11",
+    "typedoc": "^0.25.13",
+    "typescript": "^5.4.5"
+  }
+}
