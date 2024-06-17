@@ -8,6 +8,7 @@
     "docs": "typedoc",
     "test": "node ./tests/base.spec.js"
   },
+  "homepage": "https://infinity-development.github.io/uptimerobot.js/",
   "repository": {
     "type": "git",
     "url": "https://github.com/Infinity-Development/uptimerobot.js.git"
